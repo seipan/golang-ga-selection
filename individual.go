@@ -3,6 +3,6 @@ package golanggaselection
 type Individuals []Individual
 
 type Individual struct {
-	Fitness   float64
+	Fitness   int
 	Evaluated bool
 }
